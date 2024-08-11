@@ -35,12 +35,12 @@ const Home = () => {
               />
               <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                {item.title}                </Typography>
+                {item.EmpName}                </Typography>
                 <Typography gutterBottom variant="h5" component="div">
-                {item.content1}
+                {item.designation}
                 </Typography>
                 <Typography gutterBottom variant="h5" component="div">
-                {item.content2}
+                {item.empId}
                 </Typography>
               </CardContent>
               <CardActions>
